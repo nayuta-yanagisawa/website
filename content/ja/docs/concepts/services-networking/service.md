@@ -94,7 +94,7 @@ Serviceは多くの場合、KubernetesのPodに対するアクセスを抽象化
   * Serviceを、異なるNamespace内のServiceや他のクラスターのServiceに向ける場合
   * ワークロードをKubernetesに移行するとき、アプリケーションに対する処理をしながら、バックエンドの一部をKubernetesで実行する場合
 
-このような場合において、ユーザーはPodセレクター_なしで_ Serviceを定義できます。
+このような場合において、ユーザーはPodセレクター _なしで_ Serviceを定義できます。
 
 ```yaml
 apiVersion: v1
